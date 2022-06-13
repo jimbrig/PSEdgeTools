@@ -8,7 +8,7 @@ View the repo's [Changelog](CHANGELOG.md) for details on the progression of the 
 
 ## Overview
 
-- Edge Custom Search Engines Settings URL: [edge://settings/searchEngines](http://edge://settings/searchEngines)
+- Edge Custom Search Engines Settings URL: [edge://settings/searchEngines](http://settings/searchEngines)
 
 - Edge User Profile Directory: `%LOCALAPPDATA%\Microsoft\Edge\Default`
 - Edge Database: `%LOCALAPPDATA%\Microsoft\Edge\Default\Web Data`
