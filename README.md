@@ -40,6 +40,9 @@ Another useful tool for viewing the `Web Data` database contents is [sqlitebrows
 scoop install sqlitebrowser
 ```
 
+## Current Search Engines
+
+![image](https://user-images.githubusercontent.com/32652297/173259958-5a54c71b-33fa-490f-b1ba-0e71fc699e64.png)
 
 
 
