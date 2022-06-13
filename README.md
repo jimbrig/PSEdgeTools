@@ -2,7 +2,9 @@
 
 > PowerShell scripts to help users interact and configure Microsoft Edge.
 
-*[NOTE]: This project was inspired by [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup).*
+*NOTE: This project was inspired by [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup).*
+
+View the repo's [Changelog](CHANGELOG.md) for details on the progression of the codebase over time.
 
 ## Overview
 
