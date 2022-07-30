@@ -1,2 +1,2 @@
 DROP TABLE IF EXISTS keywords;
-.read output/EdgeKeywords.sql
+.read output/Edge/EdgeKeywords.sql
