@@ -22,9 +22,12 @@ If ($answer -ne 'y') {
 $SqlScriptPath = (Convert-Path "$PWD\bin\sql_import_script.sql")
 
 $EdgeWebDataFilePath = (Convert-Path "$env:LOCALAPPDATA\Microsoft\Edge\User Data\Default\Web Data")
+$EdgeCanaryWebDataFilePath = (Convert-Path "$env:LOCALAPPDATA\Microsoft\Edge SxS\User Data\Default\Web Data")
 
 # Set Database
 $Database = $EdgeWebDataFilePath
+$DatabaseCanary = $EdgeCanaryWebDataFilePath
 
 # Import keywords to database
 sqlite3.exe -init $SqlScriptPath $Database .exit
+sqlite3.exe -init $SqlScriptPath $DatabaseCanary .exit
